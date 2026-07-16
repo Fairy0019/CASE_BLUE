@@ -1,0 +1,7 @@
+[GAME_START UID=1783518473_1]
+1. e2e4
+2. e7e5
+3. d2d4
+4. d7d5
+[RESULT] 白方中途退出
+[GAME_END]
