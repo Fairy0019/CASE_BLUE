@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="round">
+      <rect x="4" y="4" width="120" height="120" rx="24" ry="24"/>
+    </clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241f18"/>
+      <stop offset="1" stop-color="#0f0d0b"/>
+    </linearGradient>
+    <linearGradient id="pawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e6cb"/>
+      <stop offset="1" stop-color="#cdb78d"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="24" ry="24" fill="url(#bg)"/>
+  <g clip-path="url(#round)" opacity="0.85">
+    <g fill="#d8c19a" opacity="0.22">
+      <rect x="4" y="4" width="30" height="30"/><rect x="64" y="4" width="30" height="30"/>
+      <rect x="34" y="34" width="30" height="30"/><rect x="94" y="34" width="30" height="30"/>
+      <rect x="4" y="64" width="30" height="30"/><rect x="64" y="64" width="30" height="30"/>
+      <rect x="34" y="94" width="30" height="30"/><rect x="94" y="94" width="30" height="30"/>
+    </g>
+  </g>
+  <g fill="url(#pawn)" stroke="#6b5230" stroke-width="1.5" stroke-linejoin="round">
+    <circle cx="64" cy="42" r="14"/>
+    <path d="M54 58 Q64 52 74 58 L71 78 Q64 83 57 78 Z"/>
+    <path d="M46 81 Q64 74 82 81 L86 93 Q64 100 42 93 Z"/>
+  </g>
+  <rect x="4" y="4" width="120" height="120" rx="24" ry="24" fill="none" stroke="#c9a45c" stroke-width="3"/>
+</svg>
